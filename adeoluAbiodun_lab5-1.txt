@@ -1,0 +1,26 @@
+// Name: Adeolu Abiodun  ||  Date: 09/08/2024  || Program File: adeoluAbiodun_lab5-1.txt
+// Program Description/Purpose: This pseudocode creates a hierarchy chart according to the Chapter 5 file provided.
+
+Main
+├── OpenInput
+│   ├── Open inputFile1
+│   ├── Open inputFile2
+│   └── Open inputFile3
+├── While not OutOfInput
+│   ├── AcquireInput
+│   │   ├── Get input1 from inputFile1
+│   │   ├── Get input2 from inputFile2
+│   │   └── Get input3 from inputFile3
+│   └── ProcessInput
+│       ├── if input1 > input2
+│       │   └── compute output as input1 * input2
+│       ├── else
+│       │   └── compute output as input3 * input1
+│       ├── processInput2
+│       │   └── return input2 * 2
+│       └── processInput3
+│           ├── if input3 > 50
+│           │   └── return input3 * 10
+│           └── else
+│               └── return input3
+└── Return
