@@ -1,5 +1,5 @@
 '''
-# Name: Adeolu Abiodun  ||  Date: 9/27/2024  ||  Program file: Adeolu_Abiodun_CSC121Project
+# Name: Adeolu Abiodun  ||  Date: 9/27/2020  ||  Program file: Adeolu_Abiodun_CSC121Project
 
 # Program Description/Purpose: This Python program generates a cellular telephone bill, accepts cash payment, and instruct the cashier on how to provide the correct change.
 
