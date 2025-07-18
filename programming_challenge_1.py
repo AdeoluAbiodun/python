@@ -1,4 +1,4 @@
-# Name: Adeolu Abiodun  ||  Date: 01/23/2020  ||  Program file: programming_challenge_1.py
+# Name: Adeolu Abiodun  ||  Date: 01/23/2025  ||  Program file: programming_challenge_1.py
 
 # This modular Python program prompts user for input, calculates a value using the formula (Q = Square root of [(2 * C * D)/H]), and then displays the result
 
