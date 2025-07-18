@@ -1,5 +1,5 @@
 
-# Name: Adeolu Abiodun  ||  Date: 10/02/2024  ||  Program file: Adeolu_Abiodun_CSC121FinalExam_Skates
+# Name: Adeolu Abiodun  ||  Date: 10/02/2020  ||  Program file: Adeolu_Abiodun_CSC121FinalExam_Skates
 
 # Program Description/Purpose: This program is to calculate the cost of purchasing skates
 
