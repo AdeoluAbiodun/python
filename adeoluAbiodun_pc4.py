@@ -4,6 +4,7 @@
 display the square of each of the odd numbers.
 '''
 
+'''
 #Here is the function to prompt user for inputs and convert the inputs to integers.
 def get_values():
     values = input("Enter values separated by a comma: ")
@@ -35,4 +36,54 @@ def main():
             break
 
 if __name__ == "__main__":
-    main()
+    main()'
+'''
+
+'''This Python tkinface program is to calculate how much an employee earns multiplying hour works with hourly rate of $20'''
+
+import tkinter
+
+class EmployingEarning:
+    def __init__(self):
+        self.main_window = tkinter.Tk()
+
+        self.top_frame = tkinter.Frame()
+        self.middle_frame = tkinter.Frame()
+        self.bottom_frame = tkinter.Frame()
+
+        #Here is the items for the top label.
+        self.top_label = tkinter.Label(self.top_frame, text="How many hours do you work per week")
+        self.only_entry = tkinter.Entry(self.top_frame, width=7)
+
+        self.top_label.pack()
+        self.only_entry.pack()
+
+        #Here is the items for the middle label.
+        self.middle_frame = tkinter.Label(self.middle_frame, text="Here is your total wage for the week: ")
+        
+        self.stringval = tkinter.StringVar()
+
+        self.var_label = tkinter.Label(self.middle_frame, textvariable = self.Val)
+
+        self.middle_frame.pack()
+        self.var_label.pack()
+
+        self.bottom_button = tkinter.Button(self.bottom_frame, text="Convert")
+        self.quit = tkinter.Label(self.bottom_frame, text="Close", command=self.main_window.destroy)
+
+        self.bottom_button.pack()
+        self.quit.pack()
+
+        tkinter.mainloop()
+
+    def Val(self):
+        container = self.stringval.get()
+
+        result = container * 20
+
+        
+
+
+
+
+
